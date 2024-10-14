@@ -1,7 +1,7 @@
 import React from "react";
-import whiteCar from "../../assets/white-car.png";
-import car2 from "../../assets/car5.png";
-import car3 from "../../assets/car6.png";
+import whiteCar from "../../assets/product_3.png";
+import car2 from "../../assets/product_2.png";
+import car3 from "../../assets/product_5.png";
 
 const carList = [
   {
@@ -52,7 +52,7 @@ const CarList = () => {
                   <img
                     src={data.image}
                     alt=""
-                    className="w-full h-[120px] object-contain sm:translate-x-8 group-hover:sm:translate-x-16 duration-700"
+                    className="w-full h-[150px] object-contain sm:translate-x-8 group-hover:sm:translate-x-16 duration-700"
                   />
                 </div>
                 <div className="space-y-2">

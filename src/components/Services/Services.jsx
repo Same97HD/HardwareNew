@@ -14,7 +14,7 @@ const skillsData = [
     aosDelay: "0",
   },
   {
-    name: "Fast and Safe",
+    name: "Best Product",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
@@ -23,7 +23,7 @@ const skillsData = [
     aosDelay: "500",
   },
   {
-    name: "Experience Drivers",
+    name: "Best sale",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
