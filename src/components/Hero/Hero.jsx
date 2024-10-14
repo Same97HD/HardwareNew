@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
+import carPng from "../../assets/hero.png";
+import yellowCar from "../../assets/hero_1.png";
 import AOS from "aos";
 
 const Hero = ({ theme }) => {
@@ -20,7 +20,7 @@ const Hero = ({ theme }) => {
             <img
               src={theme === "dark" ? carPng : yellowCar}
               alt=""
-              className="sm:scale-125 relative -z-10 max-h-[600px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
+              className="sm:scale-90 relative -z-10 max-h-[1600px] drop-shadow-[2px_20px_6px_rgba(50,50,50,50.50)]"
             />
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
@@ -32,7 +32,7 @@ const Hero = ({ theme }) => {
               data-aos-delay="600"
               className="text-5xl lg:text-7xl font-semibold font-serif"
             >
-              Car Rental
+              Hardware Item
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -46,7 +46,7 @@ const Hero = ({ theme }) => {
               }}
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
             >
-              Get Started
+              Hire Now
             </button>
           </div>
         </div>
