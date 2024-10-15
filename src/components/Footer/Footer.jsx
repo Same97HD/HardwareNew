@@ -10,19 +10,19 @@ import {
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
+    link: "/",
   },
   {
     title: "About",
-    link: "/#about",
+    link: "#about",
   },
   {
     title: "Contact",
-    link: "/#contact",
+    link: "#contact",
   },
   {
-    title: "Blog",
-    link: "/#blog",
+    title: "product",
+    link: "#product",
   },
 ];
 const Footer = () => {
@@ -33,7 +33,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
-              Car Rental
+              Hardware Product
             </h1>
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+91 100000000090</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
@@ -72,7 +72,7 @@ const Footer = () => {
                   {FooterLinks.map((link) => (
                     <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
                       <span>&#11162;</span>
-                      <span>{link.title}</span>
+                      <span><a href={link.link}>{link.title}</a></span>
                     </li>
                   ))}
                 </ul>
@@ -87,6 +87,7 @@ const Footer = () => {
                   {FooterLinks.map((link) => (
                     <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
                       <span>&#11162;</span>
+                      <span><a href={link.link}>{link.title}</a></span>
                       <span>{link.title}</span>
                     </li>
                   ))}

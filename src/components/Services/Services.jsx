@@ -9,7 +9,7 @@ const skillsData = [
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "#",
+    link: "services_1",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "0",
   },
@@ -35,7 +35,7 @@ const skillsData = [
 const Services = () => {
   return (
     <>
-      <span id="about"></span>
+      <span ></span>
       <div className="dark:bg-black dark:text-white py-14 sm:min-h-[600px] sm:grid sm:place-items-center">
         <div className="container">
           <div className="pb-12">

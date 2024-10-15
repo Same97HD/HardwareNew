@@ -34,53 +34,12 @@ const carList = [
     image: car2,
     aosDelay: "500",
   },
-  {
-    name: " Steel bars",
-    price: 100,
-    image: car3,
-    aosDelay: "1000",
-  },
-  {
-    name: " Steel bars",
-    price: 100,
-    image: whiteCar,
-    aosDelay: "0",
-  },
-  {
-    name: "Wiring cables",
-    price: 140,
-    image: car2,
-    aosDelay: "500",
-  },
-  {
-    name: "Wiring cables",
-    price: 100,
-    image: car3,
-    aosDelay: "1000",
-  },
-  {
-    name: "Wiring cables",
-    price: 100,
-    image: whiteCar,
-    aosDelay: "0",
-  },
-  {
-    name: "Wiring cables",
-    price: 140,
-    image: car2,
-    aosDelay: "500",
-  },
-  {
-    name: "Wiring cables",
-    price: 100,
-    image: car3,
-    aosDelay: "1000",
-  },
+ 
 ];
 
-const CarList = () => {
+const services_1 = () => {
   return (
-    <div className="pb-24" id="product">
+    <div className="pb-24">
       <div className="container">
         {/* Heading */}
         <h1
@@ -134,4 +93,4 @@ const CarList = () => {
   );
 };
 
-export default CarList;
+export default services_1;

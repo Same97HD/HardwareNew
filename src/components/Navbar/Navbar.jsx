@@ -7,22 +7,22 @@ export const Navlinks = [
   {
     id: 1,
     name: "HOME",
-    link: "/#",
+    link: "/",
   },
   {
     id: 2,
-    name: "CARS",
-    link: "/#cars",
+    name: "PRODUCT",
+    link: "#product",
   },
   {
     id: 1,
     name: "ABOUT",
-    link: "/#about",
+    link: "#about",
   },
   {
     id: 1,
-    name: "BOOKING",
-    link: "/#booking",
+    name: "CONTACT US",
+    link: "#contact",
   },
 ];
 const Navbar = ({ theme, setTheme }) => {
@@ -33,7 +33,7 @@ const Navbar = ({ theme, setTheme }) => {
   };
   return (
     <div
-      className="relative z-10 shadow-md w-full dark:bg-black dark:text-white duration-300
+      className="fixed z-10 shadow-md w-full dark:bg-black bg-white dark:text-white duration-300
     "
     >
       <div className="container py-2 md:py-0">
