@@ -13,7 +13,7 @@ const bannerImg = {
 };
 const AppStoreBanner = () => {
   return (
-    <div className="container">
+    <div className="container"id="contact">
       <div
         className=" text-black py-10 sm:min-h-[400px] sm:grid sm:place-items-center rounded-xl"
         style={bannerImg}
