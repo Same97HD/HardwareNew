@@ -9,54 +9,54 @@ const skillsData = [
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "services_1",
+    link: "/serviceone",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "0",
   },
   {
-    name: "Best Price",
+    name: "lower Price",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "services_1",
+    link: "/servicetwo",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "0",
   },
   {
-    name: "Best Price",
+    name: "Good Price",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "services_1",
+    link: "/servicethree",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "0",
   },
   {
-    name: "Best Price",
+    name: "Better Price",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "services_1",
+    link: "/servicefour",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "0",
   },
   {
-    name: "Best Product",
+    name: "Loku Product",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "#",
+    link: "/servicefive",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "500",
   },
   {
-    name: "Best sale",
+    name: "Hello sale",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
-    link: "#",
+    link: "/servicesix",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    aosDelay: "1000",
+    aosDelay: "0",
   },
 ];
 const Services = () => {
