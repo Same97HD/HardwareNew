@@ -1,6 +1,6 @@
 import React from "react";
 import whiteCar from "../../assets/product_3.png";
-import car2 from "../../assets/product_2.png";
+import car2 from "../../assets/product_22.png";
 import car3 from "../../assets/product_5.png";
 
 const carList = [
@@ -89,7 +89,7 @@ const CarList = () => {
         >
           Lorem ipsum dolor
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
+        <p data-aos="fade-up" aos-delay="400" className="text-sm pb-50">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
           nemo ab?
         </p>
@@ -116,9 +116,7 @@ const CarList = () => {
                     <a href="#">Details</a>
                   </div>
                 </div>
-                <p className="text-xl font-semibold absolute top-0 left-3">
-                  12Km
-                </p>
+               
               </div>
             ))}
           </div>

@@ -14,6 +14,33 @@ const skillsData = [
     aosDelay: "0",
   },
   {
+    name: "Best Price",
+    icon: (
+      <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+    ),
+    link: "services_1",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    aosDelay: "0",
+  },
+  {
+    name: "Best Price",
+    icon: (
+      <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+    ),
+    link: "services_1",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    aosDelay: "0",
+  },
+  {
+    name: "Best Price",
+    icon: (
+      <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+    ),
+    link: "services_1",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    aosDelay: "0",
+  },
+  {
     name: "Best Product",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
