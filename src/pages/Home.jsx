@@ -10,7 +10,7 @@ import Contact from "../../src/components/Contact/Contact";
 import Testimonial from "../../src/components/Testimonial/Testimonial";
 import Footer from "../../src/components/Footer/Footer";
 import  {  useEffect, useState } from "react";
- 
+import video from "../../src/assets/video.mp4";
 
 
 const Home = () => {
@@ -33,8 +33,21 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar theme={theme} setTheme={setTheme} />
-      <Hero theme={theme} />
+      
+    
+        <div className="h-[100vh] relative">
+        <Navbar theme={theme} setTheme={setTheme} />
+          <video
+            autoPlay
+            loop
+            muted
+            className="absolute right-0 top-0 h-[1100px] w-full object-cover z-[-1]"
+          >
+            <source src={video} type="video/mp4" />
+          </video>
+          <Hero theme={theme} />
+        </div>
+    
       <About />
       <Services />
       <CarList />
