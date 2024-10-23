@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
+import logo_1 from "../../../src/assets/logo_1.png";
+
+
 
 export const Navlinks = [
   {
@@ -36,10 +39,10 @@ const Navbar = ({ theme, setTheme }) => {
       className="fixed z-10 shadow-md w-full dark:bg-black bg-white dark:text-white duration-300
     "
     >
-      <div className="container py-2 md:py-0">
+      <div className="container">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold font-serif">Hardware</span>
+            <span className="text-3xl font-bold font-serif"><img src={logo_1} alt="logo" className="w-[110px] h-[75px]" /></span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
