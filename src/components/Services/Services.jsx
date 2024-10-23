@@ -32,7 +32,7 @@ const skillsData = [
     aosDelay: "0",
   },
   {
-    name: "Better Price",
+    name: "Best Price",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
@@ -41,7 +41,7 @@ const skillsData = [
     aosDelay: "0",
   },
   {
-    name: "Loku Product",
+    name: "Best Product",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
